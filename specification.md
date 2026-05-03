@@ -4,13 +4,13 @@
 
 A program egy parancssori edzésterv napló, amivel különböző típusú gyakorlatokat
 lehet rögzíteni és nyomon követni. Kardió edzésekhez (pl. futás, kerékpár, úszás) az
-időtartamot, súlyzós edzésekhez (pl. fekvenyomás, guggolás, felhúzás) a sorozatszámot,
+időtartamot, erőnléti edzésekhez (pl. fekvenyomás, guggolás, felhúzás) a sorozatszámot,
 ismétléseket és súlyt tartja nyilván. Az adatokat fájlban tárolja, így a korábban
 rögzített edzések a program újraindítása után is elérhetőek maradnak.
 
 A program nemcsak a két nagy kategóriát kezeli, hanem a gyakorlat nevét is külön
 figyelembe veszi. Ezért a felhasználó később nemcsak azt tudja megnézni, hogy mennyi
-kardió vagy súlyzós edzése volt, hanem például azt is, hogy hányszor futott, úszott,
+kardió vagy erőnléti edzése volt, hanem például azt is, hogy hányszor futott, úszott,
 guggolt vagy fekvenyomott.
 
 ## 2. Gyakorlat típusok
@@ -19,13 +19,13 @@ guggolt vagy fekvenyomott.
 vagy kerékpározás 45 percig. Ezekhez a nevet, dátumot és az időtartamot kell
 megadni percben.
 
-**Súlyzós**: Olyan gyakorlatok, ahol a sorozatok, ismétlések és a súly számít.
+**Erőnléti**: Olyan gyakorlatok, ahol a sorozatok, ismétlések és a súly számít.
 Például fekvenyomás 3 sorozat, 10 ismétlés, 60 kg-mal. Ezeknél a nevet, dátumot,
 sorozatszámot, ismétlésszámot és a súlyt kell rögzíteni.
 
 ## 3. Főbb funkciók listája
 
-**Új gyakorlat rögzítése**: A felhasználó kiválasztja a típust (kardió vagy súlyzós),
+**Új gyakorlat rögzítése**: A felhasználó kiválasztja a típust (kardió vagy erőnléti),
 megadja a gyakorlat nevét és dátumát, majd a típusnak megfelelő adatokat. A dátumnál
 lehetőség van az aktuális nap automatikus használatára.
 
@@ -36,12 +36,12 @@ feladatneveket, azok típusát, előfordulásuk számát és a hozzájuk tartoz�
 
 **Gyakorlatok szűrése**: Lehetőség van szűrésre
 - adott dátum szerint
-- típus szerint (csak kardió vagy csak súlyzós)
+- típus szerint (csak kardió vagy csak erőnléti)
 - dátum tartomány alapján (mettől meddig)
 - konkrét gyakorlatnév vagy névrészlet alapján (például "fut" vagy "gugg")
 
 **Statisztikák megjelenítése**: A program összesített adatokat mutat az edzésekről.
-Kardió esetén az összes és átlagos időtartamot, súlyzós esetén az összes sorozatszámot
+Kardió esetén az összes és átlagos időtartamot, erőnléti gyakorlat esetén az összes sorozatszámot
 és átlagos súlyt jeleníti meg. Ezen felül gyakorlatnév szerinti bontást is ad,
 amelyből látszik, hogy melyik konkrét feladatból mennyi volt, és melyik fordult elő
 leggyakrabban.

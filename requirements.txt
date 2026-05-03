@@ -1,2 +1,1 @@
-# Ez a projekt kizárólag a Python standard könyvtárat használja.
-# Nincs szükség külső függőségekre.
+# Nyílván nincs itt függőség
