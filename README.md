@@ -1,5 +1,8 @@
 # Edzésterv Napló
 
+GitHub repository:
+https://github.com/nemethi03/training
+
 Parancssori alkalmazás edzések nyilvántartásához. Kardió és erőnléti gyakorlatokat
 lehet rögzíteni dátummal, majd visszanézni, szűrni és statisztikákat készíteni belőlük.
 A program nemcsak nagy csoportok szerint dolgozik, hanem konkrét gyakorlatnevek
