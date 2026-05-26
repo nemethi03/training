@@ -63,12 +63,12 @@ def load_from_file(filepath: Path = DEFAULT_FILE) -> list[dict]:
 def export_to_csv(
     exercises: list, filepath: Path = DEFAULT_CSV
 ) -> bool:
-    """Gyakorlatok kiírása CSV fájlba (pl. Excelben megnyitható)."""
+    """Gyakorlatok kiírása CSV fájlba (Excelben megnyitható)."""
     try:
         filepath.parent.mkdir(parents=True, exist_ok=True)
 
-        with open(filepath, "w", newline="", encoding="utf-8") as f:
-            writer = csv.writer(f)
+        with open(filepath, "w", newline="", encoding="utf-8-sig") as f:
+            writer = csv.writer(f, delimiter=";")
 
             # Fejléc sor
             writer.writerow([
